@@ -13,3 +13,8 @@ variable "project" {
 variable "ssh_key" {
   default = ""
 }
+
+variable "client_id" {}
+variable "client_secret" {}
+variable "subscription_id" {}
+variable "tenant_id" {}
