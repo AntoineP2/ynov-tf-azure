@@ -21,6 +21,9 @@ jobs:
         with:
           terraform_version: 1.6.6
 
+      - name: Az Login
+        run: az login
+
       - name: ⚙️ Terraform Init
         run: terraform init
 
