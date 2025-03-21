@@ -28,4 +28,4 @@ jobs:
         run: terraform plan -out=tfplan
 
       - name: 🚀 Terraform Apply
-        run: terraform apply tfplan
+        run: terraform apply -auto-approve tfplan
